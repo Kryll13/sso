@@ -1,0 +1,32 @@
+{
+	"name": "kryll13/sso",
+	"description": "Office365 SSO",
+	"keywords": [
+		"microsoft",
+		"office365",
+		"sso"
+	],
+	"license": "CC-BY-NC-SA-4.0",
+	"authors": [
+		{
+			"name": "Philippe Mondou",
+			"email": "kryll@free.fr"
+		}
+	],
+	"type": "library",
+	"require": {
+		"php": "^7.2",
+		"stevenmaguire/oauth2-microsoft": "^2.2",
+		"microsoft/microsoft-graph": "^1.10",
+		"vlucas/phpdotenv": "^3.4"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.2",
+		"squizlabs/php_codesniffer": "^3.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kryll13\\SSO\\": "src/"
+		}
+	}
+}
