@@ -8,6 +8,17 @@ Thanks to **stevenmaguire/oauth2-microsoft** library.
 composer require kryll13/sso
 ```
 
+## Before using it
+
+You must have :
+- an Office 365 subscription,
+- created an App in Azure Active Directory,
+- set the URL app,
+- set the redirect URL to process the token,
+- the client's app ID,
+- and the client's app secret.
+
+
 ## Setup
 
 Add those entries in the .env file and replace examples with your data.
